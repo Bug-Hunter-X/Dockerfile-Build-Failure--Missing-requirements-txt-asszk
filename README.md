@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles:  failure to include all necessary files in the build context.  The original Dockerfile attempts to install Python packages listed in `requirements.txt`, but this file is missing, causing the build to fail. The solution demonstrates the correct way to include the `requirements.txt` file in the build context.
